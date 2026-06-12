@@ -1,0 +1,10 @@
+{
+  "name": "layered-infographic-psd",
+  "private": true,
+  "type": "module",
+  "description": "PSD writer for the layered-infographic skill",
+  "dependencies": {
+    "ag-psd": "*",
+    "pngjs": "*"
+  }
+}
