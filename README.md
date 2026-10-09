@@ -11,6 +11,12 @@
 | [`pubmed-research`](skills/pubmed-research) | 端到端的 PubMed 检索与引用核验：构建高级检索式、通过 NCBI E-utilities 抓取文献、本地缓存摘要，并核验某条声明是否真的被对应 PMID 的摘要支持。 |
 | [`imagegen`](skills/imagegen) | 用 GPT Image API（`gpt-image-2`）生成或编辑位图：照片、插画、产品样机、封面、信息图、透明抠图。命令行驱动，支持批量与绿幕去背。 |
 | [`layered-infographic`](skills/layered-infographic) | 把可编辑矢量文字与 `gpt-image-2` 栅格美术合成为分层信息图/海报，产出分层 SVG + 真·多图层 PSD；文字与美术各自可改、可重生。依赖 `imagegen`。 |
+| [`magpie-remote-server`](skills/magpie-remote-server) | 在无桌面 Linux 服务器上部署和维护 Magpie：回环监听、Nginx HTTPS、服务器端浏览器授权、供应商配置和 noVNC 故障定位。 |
+| [`magpie-gateway-client`](skills/magpie-gateway-client) | 让本机 Claude Code、OpenAI 兼容客户端或其他 Agent 调用远程 Magpie 网关，并理解认证、模型 ID、fallback 与路由组。 |
+
+## 教程
+
+- [用远程服务器上的 Magpie 承载 Claude Pro，本机直接调用](docs/magpie-remote-claude-local.md)：从服务器准备、服务端 Claude 登录、HTTPS 网关到本机调用和 fallback 的完整笔记。
 
 ## 安装
 
